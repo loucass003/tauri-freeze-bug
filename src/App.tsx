@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div data-tauri-drag-region style={{ height: 50, backgroundColor: 'red' }}>TOP</div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
